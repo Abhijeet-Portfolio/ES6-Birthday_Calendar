@@ -136,6 +136,8 @@ header h1 a { color: #98a4ac;}
 .days > li { 
   min-width: 13%;
   max-width: 13%;
+  padding-bottom: 25px;
+  position: relative;
   overflow: hidden;
 }
 
@@ -150,7 +152,8 @@ header h1 a { color: #98a4ac;}
 }
 
 .days h4 {
-  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
   color: #6c777e;
   font-size: 14px;
   font-weight: 600;
@@ -174,7 +177,23 @@ header h1 a { color: #98a4ac;}
 
 .days .one li {
   min-width: 100%;
-  min-height: 100%;
+  min-height: 160px;
+}
+
+.days .zero li{
+  min-width: 100%;
+  min-height: 160px;
+  position: relative;
+  background-color: #cecece;
+  color: #707070;
+  font-size: 60px;
+}
+
+.days .zero li::after {
+  content: '. .';
+  position: absolute;
+  top: 20px;
+  font-size: 45px;
 }
 
 .days .less_than_five li{
@@ -244,6 +263,8 @@ header h1 a { color: #98a4ac;}
   font-size: 18px;
   text-transform: capitalize;
 }
+
+.get-year button:hover { background-color: #005291;}
 
 /* get-year section ends */
 
