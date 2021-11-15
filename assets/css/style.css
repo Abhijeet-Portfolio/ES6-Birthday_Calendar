@@ -100,17 +100,23 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 90%; 
   margin: 0 auto;
 }
+
+body { background: #eaf0f2;}
+
 /*=================================
   Header styling starts here
 =================================*/
 
+header h1 {
+  padding: 10px 0 20px;
+  font-size: 35px;
+  text-align: center;
+}
 
-
-
-
+header h1 a { color: #98a4ac;}
 
 /*=================================
   Header styling ends here
