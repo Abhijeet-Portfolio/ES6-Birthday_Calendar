@@ -4,11 +4,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Client</title>
-  <!-- View-port Basics: http://mzl.la/VYREaP -->
-  <!-- This meta tag is used for mobile device to display the page without any zooming,
-       so how much the device is able to fit on the screen is what's shown initially. 
-       Remove comments from this tag, when you want to apply media queries to the website. -->
+  <title>Birthday Calendar</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="shortcut icon" href="favicon.ico" />
@@ -24,12 +20,66 @@
   <div class="container">
     <!--header section start-->
     <header>
-      
+      <div class="wrapper">
+        <h1><a href="index.html" title="Birthday Calendar">Birthday Cal</a></h1>
+      </div>
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
-
+      <!-- week-days section starts -->
+      <section class="week-days">
+        <div class="wrapper">
+          <ul>
+            <li>
+              <h3>mon</h3>
+              <ul class="mon"></ul>
+            </li>
+            <li>
+              <h3>tue</h3>
+              <ul class="tue"></ul>
+            </li>
+            <li>
+              <h3>wed</h3>
+              <ul class="wed"></ul>
+            </li>
+            <li>
+              <h3>thu</h3>
+              <ul class="thu"></ul>
+            </li>
+            <li>
+              <h3>fri</h3>
+              <ul class="fri"></ul>
+            </li>
+            <li>
+              <h3>sat</h3>
+              <ul class="mon"></ul>
+            </li>
+            <li>
+              <h3>sun</h3>
+              <ul class="mon"></ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- week-days section starts -->
+      <!-- get-year section starts -->
+      <section class="get-year">
+        <div class="wrapper">
+          <textarea></textarea>
+          <form>
+            <div class="form-group">
+              <label for="year">Enter the Year :</label>
+              <input type="text" id="year" placeholder="Eg. 2021" maxlength="4">
+              <span class="error">This field is required!</span>
+            </div>
+            <div class="form-control">
+              <button class="submit">submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- get-year section ends -->
     </main>
     <!--main section end-->
 
