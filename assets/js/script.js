@@ -4,7 +4,7 @@
 
 let users;
 let textarea = document.querySelector('.get-year textarea');
-let url = "https://gabhijeetaxioned.github.io/json/Birthday-data.json";
+let url = "https://abhijeet-portfolio.github.io/json/Birthday-data.json";
 let input = document.querySelector('#year');
 let error = document.querySelector('.error');
 let days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
